@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 import xgboost as xgb
-
+import sklearn
 
 def load_model():
     with open('saved.pkl', 'rb') as file:
